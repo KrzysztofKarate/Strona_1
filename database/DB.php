@@ -19,6 +19,10 @@ class DB {
         return self::$db->query($command, $params);
     }
 
+    public static function execute($command, $params = null){
+        return self::$db->execute($command, $params);
+    }
+
     public static function seed(){
         return self::$db->seed();
     }

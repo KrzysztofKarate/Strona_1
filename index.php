@@ -6,6 +6,7 @@
  * Time: 18:19
  */
 include('load.php');
+include('configureDB.php');
 ?>
 <html>
     <?php include("parts/header.php") ?>
@@ -48,7 +49,7 @@ include('load.php');
                         $msg=" Dzien dobry piszę do Ciebie ... ";
                         $to = "krzysiek96pl@onet.eu";
                         $subject = "Moj pierwszy mail.";
-                        $mailheaders = "From: moja strona <http://mts.wibro.agh.edu.pl/~s285798/index.php> \n";
+                        $mailheaders = "From: moja strona <http://mts.wibro.agh.edu.pl/~s285798/users.php> \n";
                         $mailheaders .= "Odpowiedz: krzysiek96pl@onet.eu\n";
                         $mailheaders .= "Content-Type: text; charset=utf-8\n";
 

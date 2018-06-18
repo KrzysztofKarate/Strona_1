@@ -8,6 +8,8 @@
 
 namespace database;
 
+use model\User;
+
 class DBMySQL
 {
     private $config;
@@ -25,17 +27,27 @@ class DBMySQL
     }
 
     public function query($sql, $params = null){
+        $result = null;
         if($params == null){
-            return $this->pdo->query($sql);
+            $result = $this->pdo->query($sql);
         }else{
             $result = $this->pdo->prepare($sql);
             $result->execute($params);
-            return $result;
+        }
+        return $result->fetchAll();
+    }
+
+    public function execute($sql, $params = null){
+        if($params == null){
+            $this->pdo->query($sql);
+        }else{
+            $result = $this->pdo->prepare($sql);
+            $result->execute($params);
         }
     }
 
     private function buildTables(){
-        //$this->query(User::getTableCreateSql());
+        $this->execute(User::getCreateTableSql());
     }
 
     public function seed(){

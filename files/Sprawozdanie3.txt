@@ -1,0 +1,26 @@
+1. open sunsite.icm.edu.pl 
+login:anonymous passwd:anonymous
+passive
+cd debian 
+get README -> download to home
+exit
+
+2.Download
+in psftp: open 149.156.115.209 -> login -> username
+
+3. stworzenie na pulpicie pliku
+4. in psftp: put C:/Users/user/desktop/SENDME.txt
+5. analogicznie do SEMDME.txt wrzucenie po kolei 3 zdj
+6. in psftp: lcd C:/Users/user/desktop/tmp 
+7. in psftp: mget nazwypilkow_oddzielone_spacjami
+8. pobranie winscp z winscp.net
+9. instalacja
+10.logowanie na mts.wibro.agh.edu.pl 
+11.polskie znaki zosta³y zapisane
+12. wybralem notepad++
+13. Ustawi³em notepad++ jako domyœlny edytor Winscp
+14. Kodowanie w ANSI oraz UTF-8 pozwala uzywac polskich znakow. W UTF-8 bez BOM (byte order mark)
+znaki s¹ zapisane jako zupe³nie inne ni¿ 'planowane', co powoduje problem interpretacji kolejnoœci bajtów w znaku,
+jego efektem s¹ wyœwietlane niepo¿¹dane znaki 
+15. 
+

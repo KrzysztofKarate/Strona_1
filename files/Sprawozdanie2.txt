@@ -1,0 +1,47 @@
+1.
+ -W konsoli  command wpisalem ipconfig
+ -w putty wpisalem ifconfig
+ -rutowalne-publiczne
+ -nierutowalne-prywatne
+ 2.
+ -Adresem fizycznym nazywa siê czasem te¿ adres MAC, który jest unikatowy i przypisany na sta³e 
+
+ ka¿dej karcie sieciowej.
+ -DHCP (ang. Dynamic Host Configuration Protoco – protokó³ komunikacyjny umo¿liwiaj¹cy hostom 
+
+ uzyskanie od serwera danych konfiguracyjnych, np. adresu IP hosta, adresu IP bramy sieciowej, adresu 
+
+ serwera DNS, maski podsieci
+ -IP address- to unikatowy numer przyporz¹dkowany urz¹dzeniom w sieciach komputerowych, protoko³u IP.
+ -Maska podsieci – liczba s³u¿¹ca do wyodrêbnienia w adresie IP czêœci sieciowej od czêœci hosta.
+ -Brama sieciowa– maszyna pod³¹czona do sieci komputerowej, za poœrednictwem której komputery z sieci 
+
+ lokalnej komunikuj¹ siê z komputerami w innych sieciach.
+ -DNS– system serwerów, protokó³ komunikacyjny oraz us³uga obs³uguj¹ca rozproszon¹ bazê danych 
+
+ adresów sieciowych. Pozwala na zamianê adresów znanych u¿ytkownikom Internetu na adresy zrozumia³e 
+
+ dla urz¹dzeñ tworz¹cych sieæ komputerow¹. Dziêki DNS nazwa mnemoniczna, np. pl.wikipedia.org jest 
+
+ t³umaczona na odpowiadaj¹cy jej adres IP, czyli 91.198.174.192
+ 3.
+ Polecenie netstat wyswietlna informacje o stanie sieci komputera.
+ 4/5.
+ Badanie czasu odpowiedzi serwara przeprowdzai³em dla: io ich œrednie czasy odpowiedzi wynios³y:
+ www.agh.edu.pl   0ms  ttl=61  149.156.96.52
+ www.amazon.com   41ms ttl=242 52.84.195.218
+ www.onet.pl      1ms  ttl=54  213.180.141.140
+ www.ebay.com     6ms  ttl=55  104.94.106.171
+ www.facebook.com 29ms ttl=85  
+
+ 6.
+ Poleceine nslooup pokazuje sk¹d wysy³a siê rz¹danie i (pow pisaniu adresu) dok¹d siê je wysy³a.
+ np.:
+ Serwer: unKnow
+ Adresses: 192.168.0.1
+
+ Nazwa: ww.agh.edu.pl
+ Adresses: 2001:6d8:10:1060:6034
+          149.156.96.52
+ 7.
+ Œledzi trase zapytania(po serwerach) do 30 przeskoków

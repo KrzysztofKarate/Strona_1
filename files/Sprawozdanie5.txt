@@ -1,0 +1,54 @@
+1. Wyszuka³em w zasobach sieci dokumenty [RFC 5321] , [RFC 1939], [RFC 3501] oraz [RFC 5322] i
+zapozna³em siê z ich zawartoœci¹
+
+2. Badanie protoko³u SMTP:
+	- uruchomienie programu putty
+	- zalogowanie siê na serwerze 
+	- po³¹czenie siê z serwerem pocztowym za pomoc¹ programu telnet:
+		telnet localhost 25
+	- 
+s285798@skibd:~$ telnet localhost 25
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+220 skibd.wibro.agh.edu.pl ESMTP Postfix (Ubuntu)
+HELO agh.edu.pl
+250 skibd.wibro.agh.edu.pl
+MAIL FROM <s285798@mts.wibro.agh.edu.pl>
+501 5.5.4 Syntax: MAIL FROM:<address>
+RCPT TO: <krzysiek96pl@gmail.com>
+503 5.5.1 Error: need MAIL command
+MAIL FROM <s285798@mts.wibro.agh.edu.pl>
+501 5.5.4 Syntax: MAIL FROM:<address>
+MAIL FROM: <s285798@mts.wibro.agh.edu.pl>
+250 2.1.0 Ok
+RCPT TO: <krzysiek96pl@gmail.com>
+250 2.1.5 Ok
+DATA
+354 End data with <CR><LF>.<CR><LF>
+250 2.0.0 Ok: queued as 4B725E80543
+
+3, 4. 
+Serwer poczty przychodz¹cej (IMAP): imap.gmail.com
+Serwer poczty wychodz¹cej (SMTP): smtp.gmail.com
+serwer poczty wychodz¹cej wymaga uwierzytelniania tak 
+logowanie przy u¿yciu bezpiecznego uwierzytelniania has³a nie
+Gmail domyœlnie u¿ywa TLS - protokó³ (Transport Layer Security), który szyfruje e-maile, ma zapewniaæ bezpieczeñstwo przesy³u informacji.
+Gdy bezpieczne po³¹czenie nie jest dostêpne, Gmail dostarcza wiadomoœci przez po³¹czenia niezabezpieczone. 
+
+10. Nag³ówki s¹ widoczne tak, jak je wpisaliœmy.
+11. Wielkoœæ przesy³ki zale¿y wprost proporcjonalnie od do³¹czonego za³¹cznika
+12. Protokó³ POP3 (Post Office Protocol 3):
+-	jest przeznaczony do pracy "offline";
+-	po po³¹czeniu z serwerem ca³a nieprzeczytana korespondencja wraz z za³¹cznikami transmitowana jest ze skrzynki pocztowej na serwerze do foldera na komputerze lokalnym,
+-	czytanie listów i przygotowywanie odpowiedzi mo¿e byæ przeprowadzone lokalnie bez koniecznoœci utrzymywania po³¹czenia z Internetem,
+-	zaleta w przypadku korzystania z po³¹czenia, którego koszt zale¿y od czasu przebywania w sieci
+-	wada - nie jest ³atwe obs³ugiwanie skrzynki pocztowej z wielu komputerów
+
+Protokó³ IMAP (Internet Message Access Protocol):
+-	poczta przechowywana jest na serwerze w skrzynce pocztowej i w dodatkowych folderach pocztowych,
+-	po po³¹czeniu z serwerem na komputer lokalny transmitowane s¹ jedynie same nag³ówki wiadomoœci, a transmisja treœci oraz za³¹czników nastêpuje dopiero po otwarciu danego listu,
+-	zaleta - wygodna praca na wielu komputerach, na ka¿dym z nich widzimy bowiem t¹ sam¹ zawartoœæ skrzynki,
+-	wada - koniecznoœæ utrzymywania sta³ego po³¹czenia z Internetem podczas obs³ugi poczty, wiêksza z³o¿onoœæ jego konfiguracji.
+
+

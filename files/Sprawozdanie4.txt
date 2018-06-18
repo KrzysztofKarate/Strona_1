@@ -1,0 +1,81 @@
+1,2. otrzymujê informacje o ostatniej modyfikacji, dlugosci kontentu i jego parametrach, oraz tekst Ÿród³owy strony. Nastêpnie po³¹czenie siê koñczy poniewa¿ rz¹danie otrzyma³o odpowiedŸ i komunikacja siê zakoñczy³a.
+
+z³a nazwa strony 404 not found
+z³y adres Hosta 404 not found
+
+3.miejsce testow -> California
+facebook 1.4s
+onet.pl 3.79
+amazon.com 1.25s
+moja strona domowa 633 ms
+
+4. URL (ang. Uniform Resource Locator) – oznacza ujednolicony format adresowania zasobów (informacji, danych, us³ug) stosowany w Internecie i w sieciach lokalnych.
+
+	pliki: //adres_serwera:port/sciezka_dostêpu
+	zak³adki: //adres_serwera/sciezka_dostêpu
+	poczta: nazwa_uzytkownika@adres_serwera
+
+5.	Poniewa¿ nie zachowuje ¿adnych informacji o poprzednich komunikacjach z klientem (po zakoñczeniu transakcji wszystko znika)
+PUTTY sie wylacza po skonczeniu przesylania odpowiedzi hosta
+
+6.	Pliki Cookie to s¹ ma³e partie informacji, które serwis internetowy wysy³a do przegl¹darki i który przegl¹darka wysy³a z powrotem przy nastêpnych wejœciach na witrynê. U¿ywane jest g³ównie do utrzymywania sesji np. poprzez wygenerowanie i odes³anie tymczasowego identyfikatora po logowaniu. Mo¿e byæ jednak wykorzystywane szerzej poprzez zapamiêtanie dowolnych danych, które mo¿na zakodowaæ jako ci¹g znaków. Dziêki temu u¿ytkownik nie musi wpisywaæ tych samych informacji za ka¿dym razem, gdy powróci na tê stronê lub przejdzie z jednej strony na inn¹.
+
+7. 
+	Google 
+	Oko³o 30 500 000 wyników (0,47 s)
+	Czas po³¹czenia:	0.055 sekundy
+	Czas zapytania:	0.047 sekundy
+	Ca³kowity czas ³adowania:	0.047 sekundy
+	Kalkulator, przelicznik walut.
+
+	Bing 
+	Wyniki: 11 900 000
+	Czas po³¹czenia:	0.204 sekundy
+	Czas zapytania:	0.238 sekundy
+	Ca³kowity czas ³adowania:	0.328 sekundy
+	Kalkulator, brak przelicznika walut.
+
+	Yahoo 
+	22,700,000 results
+	Czas po³¹czenia:	5.801 sekundy
+	Czas zapytania:	13.372 sekundy
+	Ca³kowity czas ³adowania:	20.266 sekundy
+	Kalkulator, przelicznik walut.
+
+	DuckDuckGo 
+	Czas po³¹czenia:	0.000 sekundy
+	Czas zapytania:	0.399 sekundy
+	Ca³kowity czas ³adowania:	0.000 sekundy
+	Kalkulator, przelicznik walut.
+
+
+	Ask
+	Czas po³¹czenia:	0.201 sekundy
+	Czas zapytania:		0.337 sekundy
+	Ca³kowity czas ³adowania:	0.601 sekundy
+	Brak kalkulatora, przelicznika walut.
+
+8.
+	Proxy to swego rodzaju serwer poœrednicz¹cy pomiêdzy komputerem u¿ytkownika (przegl¹dark¹, 
+	oprogramowaniem wykorzystuj¹cym po³¹czenia sieciowe), a serwerami udostêpniaj¹cymi dane poprzez Internet.
+	W przypadku, gdy u¿ytkownik czêsto odwiedza popularne witryny, to czêœæ danych o nich zapisywana jest w plikach 
+	temp komputera, by przy ponownych odwiedzinach nie musieæ œci¹gaæ podobnej porcji tych samych danych.
+	Jeœli jednak odwiedza witryny po raz pierwszy lub korzysta z kasowania zawartoœci katalogu z plikami tymczasowymi, 
+	to strony wczytuj¹ siê wolniej. Serwery Proxy oferuj¹ zmagazynowan¹ czêœæ sta³¹ serwisów i pozwalaj¹ œci¹gaæ je z bli¿szego serwera,
+	co znacznie przyspiesza wczytywanie stron WWW.
+
+9.
+	Protokó³ http to protokó³ przesy³ania danych dla sieci internetowej. 
+	Komunikacja w ramach protoko³u http oparta jest na wysy³aniu danych pomiêdzy klientem i serwerem (odpowiadaj¹cym). 
+	Klient wysy³a zapytanie – serwer wysy³a odpowiednie dane. 
+	
+	Protokó³ https to szyfrowana wersja protoko³u http, która szyfruje po³¹czenie z wykorzystaniem protoko³u SSL.
+	Dziêki temu przesy³ane dane s¹ szyfrowane, a co za tym idzie trudniejsze do przechwycenia i zmiany. 
+	Protoko³y te ró¿ni¹ siê te¿ domyœlnym portem. Dla protoko³u http jest to port 80, zaœ dla https 443.
+
+10. zapoznaæ siê ze specyfikacj¹ HTTP oraz CSS.
+
+11. Zmodyfikowaæ swoj¹ stronê internetow¹ wprowadzaj¹c na niej ró¿ne elementy formatowania np: listy, 
+tabele, formularze oraz nadaæ im ró¿ne formatowania za pomoc¹ stylów CSS
+
+12. Dla zainteresowanych: Zapoznaæ siê ze stron¹ http://getbootstrap.com/ oraz zastosowaæ dostêpne tam mo¿liwoœci do formatowania widoku strony.

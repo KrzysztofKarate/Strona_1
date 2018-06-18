@@ -1,0 +1,10 @@
+3. katalog zalozony komenda mkdir tmp
+4. tee IN -> Krzysztof Lipiñski -> enter -> ctrl+D
+5. chmod zmienia prawa ale plik sam z siebie posiada za³o¿one prawa sprawdzone komenda ls -l
+6. wyœwietlilem procesy komenda ps
+7. sprawdzam ilosc uzytkownikow komenda who (jest ich 3)
+8. haslo zmienione komenda "passwd s285798"
+9. znalazlem plik passwd z uzyciem komendy find / -name '*passwd*'
+10. uzylem komendy pwd
+11. stworzylem z uzyciem komendy tee
+12. Strona jest na koncie domowym
